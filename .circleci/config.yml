@@ -39,7 +39,7 @@ jobs:
         command: |
           . venv/bin/activate
           python3 -m flake8 \
-            --exclude=venv,epi_judge_python,epi_judge_python_solutions \
+            --exclude=venv,epi,lab3-big-o,lab4-tdd \
             --ignore=E266,F401
 
     - run:
