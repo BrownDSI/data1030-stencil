@@ -46,7 +46,7 @@ jobs:
         name: run tests
         command: |
           . venv/bin/activate
-          python3 -m pytest
+          python3 -m pytest --ignore=epi
 
     - store_artifacts:
         path: test-reports
